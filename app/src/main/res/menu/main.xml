@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/autor" android:title="Autor"></item>
+    <item android:id="@+id/powrot" android:title="Powrót"></item>
+    <item android:id="@+id/motyw" android:title="Motyw">
+        <menu>
+            <item android:id="@+id/color01" android:title="Czarno-Biały"></item>
+            <item android:id="@+id/color02" android:title="Czerwono-żółta"></item>
+        </menu>
+    </item>
+</menu>
